@@ -34,6 +34,7 @@ namespace Carreño_BasedeDatos
 
             conexionBD.Open();
             lblResultado.Text = "Conectado a la base";
+            lblResultado.ForeColor = Color.Green;
 
         }
     }
